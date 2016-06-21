@@ -1,0 +1,9 @@
+body {
+  background-color: #10e8c9;
+}
+
+.picture_answer {
+  width: 200px;
+  height: auto;
+  float: right;
+}
