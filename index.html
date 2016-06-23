@@ -10,125 +10,134 @@
   </head>
   <body>
     <div class="container">
-      <h1>Meet our Travel Genie</h1>
-        <header>
-          <img src="img/genie.png" alt="blue genie">
-          <h2>Answer a few simple questions below and our Genie will take you to the destination of your deepest desires.</h2>
-        </header>
-        <form>
-          <div>
+      <header>
+        <h1>Meet our Travel Genie</h1>
+        <img src="img/genie.png" alt="blue genie">
+        <h2>Answer a few simple questions below and our Genie will take you to the destination of your deepest desires.</h2>
+      </header>
+      <form id="travel">
+
+        <div class="row">
+          <div class="col-md-12">
             <h3>Which location looks the most appealing?</h3>
-              <div id="city-r"
-                <div class="radio">
-                  <label>
-                    <input type="radio" name="citytype" value="beach">
-                    <img src="img/beach.jpg" class="picture_answer" alt="beach scene">
-                  </label>
-                </div>
-              </div>
-              <div class="radio">
-                <label>
-                  <input type="radio" name="citytype" value="history">
-                  <img src="img/history.jpg" class="picture_answer" alt="pyramids">
-                </label>
-              </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="citytype" value="beach">
+                <img src="img/beach.jpg" class="picture_answer" id="beach" alt="beach scene">
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="citytype" value="history">
+                <img src="img/history.jpg" class="picture_answer" id="history" alt="pyramids">
+              </label>
             </div>
             <div class="radio">
               <label>
                 <input type="radio" name="citytype" value="hiking">
-                <img src="img/hiking.jpg" class="picture_answer" alt="outdoors">
+                <img src="img/hiking.jpg" class="picture_answer" id="hiking" alt="outdoors">
               </label>
             </div>
             <div class="radio">
               <label>
                 <input type="radio" name="citytype" value="city">
-                <img src="img/city.jpg" class="picture_answer" alt="metropolis">
+                <img src="img/city.jpg" class="picture_answer" id="city" alt="metropolis">
               </label>
             </div>
           </div>
-          <div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-5">
             <h3>What is your beverage of choice?</h3>
             <div class="radio">
               <label>
                 <input type="radio" name="beverage" value="beer">
-                <img src="img/beer.jpg" class="picture_answer" alt="beer">
+                <img src="img/beer.jpg" class="picture_answer" id="beer" alt="beer">
               </label>
             </div>
             <div class="radio">
               <label>
                 <input type="radio" name="beverage" value="champagne">
-                <img src="img/champagne.jpg" class="picture_answer" alt="champagne">
+                <img src="img/champagne.jpg" class="picture_answer" id="champagne" alt="champagne">
               </label>
             </div>
             <div class="radio">
               <label>
                 <input type="radio" name="beverage" value="water">
-                <img src="img/water.jpg" class="picture_answer" alt="water">
+                <img src="img/water.jpg" class="picture_answer" id="water" alt="water">
               </label>
             </div>
             <div class="radio">
               <label>
                 <input type="radio" name="beverage" value="wine">
-                <img src="img/wine.jpg" class="picture_answer" alt="wine">
+                <img src="img/wine.jpg" class="picture_answer" id="wine" alt="wine">
               </label>
             </div>
           </div>
-          <div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-12">
             <h3>Choose a food</h3>
             <div class="radio">
               <label>
                 <input type="radio" name="food" value="steak">
-                <img src="img/steak.jpg" class="picture_answer" alt="steak">
+                <img src="img/steak.jpg" class="picture_answer" id="steak" alt="steak">
               </label>
             </div>
             <div class="radio">
               <label>
                 <input type="radio" name="food" value="cheese">
-                <img src="img/cheese.jpg" class="picture_answer" alt="cheese">
+                <img src="img/cheese.jpg" class="picture_answer" id="cheese" alt="cheese">
               </label>
             </div>
             <div class="radio">
               <label>
                 <input type="radio" name="food" value="wrap">
-                <img src="img/wrap.jpg" class="picture_answer" alt="wrap">
+                <img src="img/wrap.jpg" class="picture_answer" id="wrap" alt="wrap">
               </label>
             </div>
             <div class="radio">
               <label>
                 <input type="radio" name="food" value="nachos">
-                <img src="img/nachos.jpg" class="picture_answer" alt="nachos">
+                <img src="img/nachos.jpg" class="picture_answer" id="nachos" alt="nachos">
               </label>
             </div>
           </div>
-          <div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-12">
             <h3>What would you prefer to be doing?</h3>
             <div class="radio">
               <label>
                 <input type="radio" name="entertainment" value="movie">
-                <img src="img/movie.jpg" class="picture_answer" alt="movie">
+                <img src="img/movie.jpg" class="picture_answer" id="movie" alt="movie">
               </label>
             </div>
             <div class="radio">
               <label>
                 <input type="radio" name="entertainment" value="walk">
-                <img src="img/walk.jpg" class="picture_answer" alt="walk">
+                <img src="img/walk.jpg" class="picture_answer" id="walk" alt="walk">
               </label>
             </div>
             <div class="radio">
               <label>
                 <input type="radio" name="entertainment" value="shopping">
-                <img src="img/shopping.jpg" class="picture_answer" alt="shopping">
+                <img src="img/shopping.jpg" class="picture_answer" id="shopping" alt="shopping">
               </label>
             </div>
             <div class="radio">
               <label>
                 <input type="radio" name="entertainment" value="relax">
-                <img src="img/relax.jpg" class="picture_answer" alt="relax">
+                <img src="img/relax.jpg" class="picture_answer" id="relax" alt="relax">
               </label>
             </div>
           </div>
-
-        </form>
+        </div>
+        <button type="submit" class="btn">Show me my Destination</button>
+      </form>
 
     </div>
   </body>
